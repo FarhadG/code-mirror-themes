@@ -5,7 +5,7 @@ Code Mirror is a great online editor, however, it's lacking some good themes. So
 
 I used this <a href="https://github.com/FarhadG/codeMirror-aceEditor-theme-generator" target="_blank">theme generator</a> to export themes from editors such as Sublime Text, Ace Editor and TextMate.
 
-A few modifications were made to the base styling to make the default theme look better; e.g. line-heights, fonts, etc. Some version have a default version included (from CodeMirror).
+Click <a href="http://farhadg.github.io/codeMirror-themes/" target="_blank">here</a> for a simple demo where you can switch between various themes on the fly. A few modifications were made to the base styling to make the default theme look better; e.g. line-heights, fonts, etc. Some version have a default version included (from CodeMirror).
 
 If something is not working or you would like a new feature, please use the issues page.
 
@@ -42,6 +42,8 @@ Once you have the desired CSS file, you simply configure your CodeMirror editor 
 
 
 ## Demo
+
+You can either check out the <a href="http://farhadg.github.io/codeMirror-themes/" target="_blank">demo</a> where you can see the various themes in action.
 
 Here's a theme I extracted from one of my favorite Sublime Themes (itg-flat).
 
