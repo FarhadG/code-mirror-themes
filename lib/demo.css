@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+.CodeMirror {
+    height: 100%;
+    font-size: 18px;
+}
+
+#header-container {
+    display: block;
+    position: fixed;
+    width: 320px;
+    height: 60px;
+    right: 30px;
+    top: 50px;
+    z-index: 999;
+}
+
+select {
+    outline: none;
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    width: 310px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+select:hover {
+    background-color: white;
+    color: black;
+}

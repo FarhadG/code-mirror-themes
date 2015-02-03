@@ -16,6 +16,7 @@
 	background-color: #222C28;
 	padding-right: 10px;
 	z-index: 3;
+	border: none;
 }
 .cm-s-monoindustrial div.CodeMirror-cursor {
 	border-left: 3px solid #FFFFFF;

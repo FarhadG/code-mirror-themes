@@ -16,6 +16,7 @@
 	background-color: #EEEEEEEB;
 	padding-right: 10px;
 	z-index: 3;
+	border: none;
 }
 .cm-s-iplastic div.CodeMirror-cursor {
 	border-left: 3px solid #000000;

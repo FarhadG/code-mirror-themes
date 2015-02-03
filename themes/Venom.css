@@ -16,6 +16,7 @@
 	background-color: #0D0D0D;
 	padding-right: 10px;
 	z-index: 3;
+	border: none;
 }
 .cm-s-venom div.CodeMirror-cursor {
 	border-left: 3px solid #BFBFBF;

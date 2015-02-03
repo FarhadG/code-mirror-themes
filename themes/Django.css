@@ -16,6 +16,7 @@
 	background-color: #0B2F20;
 	padding-right: 10px;
 	z-index: 3;
+	border: none;
 }
 .cm-s-django div.CodeMirror-cursor {
 	border-left: 3px solid #F8F8F8;

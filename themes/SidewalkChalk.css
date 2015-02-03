@@ -16,6 +16,7 @@
 	background-color: #2B2D2E;
 	padding-right: 10px;
 	z-index: 3;
+	border: none;
 }
 .cm-s-sidewalkchalk div.CodeMirror-cursor {
 	border-left: 3px solid #FAFAFA;

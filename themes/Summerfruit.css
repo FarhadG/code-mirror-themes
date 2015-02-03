@@ -16,6 +16,7 @@
 	background-color: #fdfdfd;
 	padding-right: 10px;
 	z-index: 3;
+	border: none;
 }
 .cm-s-summerfruit div.CodeMirror-cursor {
 	border-left: 3px solid #181818;

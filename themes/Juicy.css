@@ -16,6 +16,7 @@
 	background-color: #F1F1F1;
 	padding-right: 10px;
 	z-index: 3;
+	border: none;
 }
 .cm-s-juicy div.CodeMirror-cursor {
 	border-left: 3px solid #000000;

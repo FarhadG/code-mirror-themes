@@ -16,6 +16,7 @@
 	background-color: #28211C;
 	padding-right: 10px;
 	z-index: 3;
+	border: none;
 }
 .cm-s-bespin div.CodeMirror-cursor {
 	border-left: 3px solid #BAAE9E;

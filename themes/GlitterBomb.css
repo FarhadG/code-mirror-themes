@@ -16,6 +16,7 @@
 	background-color: #0B0A0A;
 	padding-right: 10px;
 	z-index: 3;
+	border: none;
 }
 .cm-s-glitterbomb div.CodeMirror-cursor {
 	border-left: 3px solid #CFCFCF;

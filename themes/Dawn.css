@@ -16,6 +16,7 @@
 	background-color: #F9F9F9;
 	padding-right: 10px;
 	z-index: 3;
+	border: none;
 }
 .cm-s-dawn div.CodeMirror-cursor {
 	border-left: 3px solid #080808;

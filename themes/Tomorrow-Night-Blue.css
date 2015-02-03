@@ -16,6 +16,7 @@
 	background-color: #002451;
 	padding-right: 10px;
 	z-index: 3;
+	border: none;
 }
 .cm-s-tomorrow-night-blue div.CodeMirror-cursor {
 	border-left: 3px solid #FFFFFF;

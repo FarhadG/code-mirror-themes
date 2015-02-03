@@ -16,6 +16,7 @@
 	background-color: #ffd513;
 	padding-right: 10px;
 	z-index: 3;
+	border: none;
 }
 .cm-s-chanfle div.CodeMirror-cursor {
 	border-left: 3px solid #333333;

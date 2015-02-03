@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>CodeMirror Themes</title>
+    <meta name='description' content=''>
+    <meta name='author' content=''>
+
+    <!--****************************************************************************
+    *   Demo specific stylesheets
+    *-->
+    <link rel='stylesheet' href='./lib/codemirror.css'>
+    <link rel='stylesheet' href='./lib/demo.css'>
+
+    <!--****************************************************************************
+    *   CodeMirror Theme Styles
+    *-->
+    <link rel='stylesheet' href='./themes/all-hallow-eve.css'>
+    <link rel='stylesheet' href='./themes/amy.css'>
+    <link rel='stylesheet' href='./themes/argonaut.css'>
+    <link rel='stylesheet' href='./themes/arona.css'>
+    <link rel='stylesheet' href='./themes/bbedit.css'>
+    <link rel='stylesheet' href='./themes/bespin.css'>
+    <link rel='stylesheet' href='./themes/birds-of-paradise.css'>
+    <link rel='stylesheet' href='./themes/black-pearl-ii.css'>
+    <link rel='stylesheet' href='./themes/black-pearl.css'>
+    <link rel='stylesheet' href='./themes/blackboard-black.css'>
+    <link rel='stylesheet' href='./themes/blackboard.css'>
+    <link rel='stylesheet' href='./themes/bongzilla.css'>
+    <link rel='stylesheet' href='./themes/cssedit.css'>
+    <link rel='stylesheet' href='./themes/chanfle.css'>
+    <link rel='stylesheet' href='./themes/chrome-devtools.css'>
+    <link rel='stylesheet' href='./themes/classic-modified.css'>
+    <link rel='stylesheet' href='./themes/clouds-midnight.css'>
+    <link rel='stylesheet' href='./themes/clouds.css'>
+    <link rel='stylesheet' href='./themes/cobalt.css'>
+    <link rel='stylesheet' href='./themes/coda.css'>
+    <link rel='stylesheet' href='./themes/cube2media.css'>
+    <link rel='stylesheet' href='./themes/darkpastel.css'>
+    <link rel='stylesheet' href='./themes/dawn.css'>
+    <link rel='stylesheet' href='./themes/django-(smoothy).css'>
+    <link rel='stylesheet' href='./themes/django.css'>
+    <link rel='stylesheet' href='./themes/eiffel.css'>
+    <link rel='stylesheet' href='./themes/emacs-strict.css'>
+    <link rel='stylesheet' href='./themes/espresso-libre.css'>
+    <link rel='stylesheet' href='./themes/espresso-soda.css'>
+    <link rel='stylesheet' href='./themes/espresso-tutti.css'>
+    <link rel='stylesheet' href='./themes/espresso.css'>
+    <link rel='stylesheet' href='./themes/fade-to-grey.css'>
+    <link rel='stylesheet' href='./themes/fake.css'>
+    <link rel='stylesheet' href='./themes/fantasyscript.css'>
+    <link rel='stylesheet' href='./themes/fluidvision.css'>
+    <link rel='stylesheet' href='./themes/freckle.css'>
+    <link rel='stylesheet' href='./themes/friendship-bracelet.css'>
+    <link rel='stylesheet' href='./themes/github.css'>
+    <link rel='stylesheet' href='./themes/glitterbomb.css'>
+    <link rel='stylesheet' href='./themes/happy-happy-joy-joy-2.css'>
+    <link rel='stylesheet' href='./themes/idle.css'>
+    <link rel='stylesheet' href='./themes/ir_black.css'>
+    <link rel='stylesheet' href='./themes/ir_white.css'>
+    <link rel='stylesheet' href='./themes/idlefingers.css'>
+    <link rel='stylesheet' href='./themes/johnny.css'>
+    <link rel='stylesheet' href='./themes/juicy.css'>
+    <link rel='stylesheet' href='./themes/kuroir.css'>
+    <link rel='stylesheet' href='./themes/lazy.css'>
+    <link rel='stylesheet' href='./themes/lowlight.css'>
+    <link rel='stylesheet' href='./themes/mac-classic.css'>
+    <link rel='stylesheet' href='./themes/made-of-code.css'>
+    <link rel='stylesheet' href='./themes/magicwb-(amiga).css'>
+    <link rel='stylesheet' href='./themes/merbivore-soft.css'>
+    <link rel='stylesheet' href='./themes/merbivore.css'>
+    <link rel='stylesheet' href='./themes/monoindustrial.css'>
+    <link rel='stylesheet' href='./themes/monokai-bright.css'>
+    <link rel='stylesheet' href='./themes/monokai-fannonedition.css'>
+    <link rel='stylesheet' href='./themes/monokai-sublime.css'>
+    <link rel='stylesheet' href='./themes/monokai.css'>
+    <link rel='stylesheet' href='./themes/mreq.css'>
+    <link rel='stylesheet' href='./themes/nightlion.css'>
+    <link rel='stylesheet' href='./themes/notebook.css'>
+    <link rel='stylesheet' href='./themes/oceanic-muted.css'>
+    <link rel='stylesheet' href='./themes/oceanic.css'>
+    <link rel='stylesheet' href='./themes/pastels-on-dark.css'>
+    <link rel='stylesheet' href='./themes/pastie.css'>
+    <link rel='stylesheet' href='./themes/plasticcodewrap.css'>
+    <link rel='stylesheet' href='./themes/prospettiva.css'>
+    <link rel='stylesheet' href='./themes/putty.css'>
+    <link rel='stylesheet' href='./themes/rdark.css'>
+    <link rel='stylesheet' href='./themes/rails-envy.css'>
+    <link rel='stylesheet' href='./themes/railscasts.css'>
+    <link rel='stylesheet' href='./themes/rhuk.css'>
+    <link rel='stylesheet' href='./themes/ryan-light.css'>
+    <link rel='stylesheet' href='./themes/sidewalkchalk.css'>
+    <link rel='stylesheet' href='./themes/slush-&-poppies.css'>
+    <link rel='stylesheet' href='./themes/smoothy.css'>
+    <link rel='stylesheet' href='./themes/solarized-(dark).css'>
+    <link rel='stylesheet' href='./themes/solarized-(light).css'>
+    <link rel='stylesheet' href='./themes/spacecadet.css'>
+    <link rel='stylesheet' href='./themes/spectacular.css'>
+    <link rel='stylesheet' href='./themes/summer-sun.css'>
+    <link rel='stylesheet' href='./themes/summerfruit.css'>
+    <link rel='stylesheet' href='./themes/sunburst.css'>
+    <link rel='stylesheet' href='./themes/swyphs-ii.css'>
+    <link rel='stylesheet' href='./themes/tango.css'>
+    <link rel='stylesheet' href='./themes/text-ex-machina.css'>
+    <link rel='stylesheet' href='./themes/tomorrow-night-blue.css'>
+    <link rel='stylesheet' href='./themes/tomorrow-night-bright.css'>
+    <link rel='stylesheet' href='./themes/tomorrow-night-eighties.css'>
+    <link rel='stylesheet' href='./themes/tomorrow-night.css'>
+    <link rel='stylesheet' href='./themes/tomorrow.css'>
+    <link rel='stylesheet' href='./themes/toulousse-lautrec.css'>
+    <link rel='stylesheet' href='./themes/toy-chest.css'>
+    <link rel='stylesheet' href='./themes/tubster.css'>
+    <link rel='stylesheet' href='./themes/twilight.css'>
+    <link rel='stylesheet' href='./themes/venom.css'>
+    <link rel='stylesheet' href='./themes/vibrant-fin.css'>
+    <link rel='stylesheet' href='./themes/vibrant-ink.css'>
+    <link rel='stylesheet' href='./themes/vibrant-tango.css'>
+    <link rel='stylesheet' href='./themes/zenburnesque.css'>
+    <link rel='stylesheet' href='./themes/iplastic.css'>
+    <link rel='stylesheet' href='./themes/krtheme.css'>
+
+    <!--****************************************************************************
+    *   Demo specific scripts
+    *-->
+    <script src='./lib/codemirror.js'></script>
+    <script src='./lib/javascript/javascript.js'></script>
+    <script src='./lib/selection/active-line.js'></script>
+    <script src='./lib/edit/matchbrackets.js'></script>
+
+</head>
+<body>
+
+    <!--****************************************************************************
+    *   CodeMirror DOM element with some default JavsScript code
+    *-->
+    <form>
+        <textarea id='code' name='code'>
+//     Underscore.js Sample Code
+
+(function() {
+
+    // Baseline setup
+    // --------------
+
+    // Establish the root object, `window` in the browser, or `exports` on the server.
+    var root = this;
+
+    // Save the previous value of the `_` variable.
+    var previousUnderscore = root._;
+
+    // Save bytes in the minified (but not gzipped) version:
+    var ArrayProto = Array.prototype, ObjProto = Object.prototype, FuncProto = Function.prototype;
+
+    // Create quick reference variables for speed access to core prototypes.
+    var
+        push             = ArrayProto.push,
+        slice            = ArrayProto.slice,
+        toString         = ObjProto.toString,
+        hasOwnProperty   = ObjProto.hasOwnProperty;
+
+    // All **ECMAScript 5** native function implementations that we hope to use
+    // are declared here.
+    var
+        nativeIsArray      = Array.isArray,
+        nativeKeys         = Object.keys,
+        nativeBind         = FuncProto.bind,
+        nativeCreate       = Object.create;
+
+    // Reusable constructor function for prototype setting.
+    var Ctor = function(){};
+
+    // Create a safe reference to the Underscore object for use below.
+    var _ = function(obj) {
+        if (obj instanceof _) return obj;
+        if (!(this instanceof _)) return new _(obj);
+        this._wrapped = obj;
+    };
+
+    // Export the Underscore object for **Node.js**, with
+    // backwards-compatibility for the old `require()` API. If we're in
+    // the browser, add `_` as a global object.
+    if (typeof exports !== 'undefined') {
+        if (typeof module !== 'undefined' && module.exports) {
+            exports = module.exports = _;
+        }
+    }
+)();
+        </textarea>
+    </form>
+
+    <!--****************************************************************************
+    *   Input with the various themes as options
+    *-->
+    <section id="header-container">
+        <select onchange='selectTheme()' id='select'>
+            <option selected disabled>Select a theme</option>
+            <option>all-hallow-eve</option>
+            <option>amy</option>
+            <option>argonaut</option>
+            <option>arona</option>
+            <option>bbedit</option>
+            <option>bespin</option>
+            <option>birds-of-paradise</option>
+            <option>black-pearl-ii</option>
+            <option>black-pearl</option>
+            <option>blackboard-black</option>
+            <option>blackboard</option>
+            <option>bongzilla</option>
+            <option>cssedit</option>
+            <option>chanfle</option>
+            <option>chrome-devtools</option>
+            <option>classic-modified</option>
+            <option>clouds-midnight</option>
+            <option>clouds</option>
+            <option>cobalt</option>
+            <option>coda</option>
+            <option>cube2media</option>
+            <option>darkpastel</option>
+            <option>dawn</option>
+            <option>django-(smoothy)</option>
+            <option>django</option>
+            <option>eiffel</option>
+            <option>emacs-strict</option>
+            <option>espresso-libre</option>
+            <option>espresso-soda</option>
+            <option>espresso-tutti</option>
+            <option>espresso</option>
+            <option>fade-to-grey</option>
+            <option>fake</option>
+            <option>fantasyscript</option>
+            <option>fluidvision</option>
+            <option>freckle</option>
+            <option>friendship-bracelet</option>
+            <option>github</option>
+            <option>glitterbomb</option>
+            <option>happy-happy-joy-joy-2</option>
+            <option>idle</option>
+            <option>ir_black</option>
+            <option>ir_white</option>
+            <option>idlefingers</option>
+            <option>johnny</option>
+            <option>juicy</option>
+            <option>kuroir</option>
+            <option>lazy</option>
+            <option>lowlight</option>
+            <option>mac-classic</option>
+            <option>made-of-code</option>
+            <option>magicwb-(amiga)</option>
+            <option>merbivore-soft</option>
+            <option>merbivore</option>
+            <option>monoindustrial</option>
+            <option>monokai-bright</option>
+            <option>monokai-fannonedition</option>
+            <option>monokai-sublime</option>
+            <option>monokai</option>
+            <option>mreq</option>
+            <option>nightlion</option>
+            <option>notebook</option>
+            <option>oceanic-muted</option>
+            <option>oceanic</option>
+            <option>pastels-on-dark</option>
+            <option>pastie</option>
+            <option>plasticcodewrap</option>
+            <option>prospettiva</option>
+            <option>putty</option>
+            <option>rdark</option>
+            <option>rails-envy</option>
+            <option>railscasts</option>
+            <option>rhuk</option>
+            <option>ryan-light</option>
+            <option>sidewalkchalk</option>
+            <option>slush-&-poppies</option>
+            <option>smoothy</option>
+            <option>solarized-(dark)</option>
+            <option>solarized-(light)</option>
+            <option>spacecadet</option>
+            <option>spectacular</option>
+            <option>summer-sun</option>
+            <option>summerfruit</option>
+            <option>sunburst</option>
+            <option>swyphs-ii</option>
+            <option>tango</option>
+            <option>text-ex-machina</option>
+            <option>tomorrow-night-blue</option>
+            <option>tomorrow-night-bright</option>
+            <option>tomorrow-night-eighties</option>
+            <option>tomorrow-night</option>
+            <option>tomorrow</option>
+            <option>toulousse-lautrec</option>
+            <option>toy-chest</option>
+            <option>tubster</option>
+            <option>twilight</option>
+            <option>venom</option>
+            <option>vibrant-fin</option>
+            <option>vibrant-ink</option>
+            <option>vibrant-tango</option>
+            <option>zenburnesque</option>
+            <option>iplastic</option>
+            <option>krtheme</option>
+        </select>
+    </section>
+
+    <!--****************************************************************************
+    *   Minimal markup for initializing CodeMirror ad listening
+    *   for when the input field has been updated with a new theme
+    *-->
+    <script>
+        var editor = CodeMirror.fromTextArea(document.getElementById('code'), {
+            lineNumbers: true,
+            styleActiveLine: true,
+            matchBrackets: true
+        });
+
+        var input = document.getElementById('select');
+        function selectTheme() {
+            var theme = input.options[input.selectedIndex].innerHTML;
+            editor.setOption('theme', theme);
+        }
+    </script>
+
+</body>
+</html>

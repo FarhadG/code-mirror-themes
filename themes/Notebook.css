@@ -16,6 +16,7 @@
 	background-color: #BEB69D;
 	padding-right: 10px;
 	z-index: 3;
+	border: none;
 }
 .cm-s-notebook div.CodeMirror-cursor {
 	border-left: 3px solid #000000BF;

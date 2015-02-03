@@ -16,6 +16,7 @@
 	background-color: #161616;
 	padding-right: 10px;
 	z-index: 3;
+	border: none;
 }
 .cm-s-merbivore div.CodeMirror-cursor {
 	border-left: 3px solid #E6E1DC;

@@ -16,6 +16,7 @@
 	background-color: #1B2426;
 	padding-right: 10px;
 	z-index: 3;
+	border: none;
 }
 .cm-s-rdark div.CodeMirror-cursor {
 	border-left: 3px solid #B9BDB6;

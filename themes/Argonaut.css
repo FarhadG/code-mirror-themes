@@ -16,6 +16,7 @@
 	background-color: #151515;
 	padding-right: 10px;
 	z-index: 3;
+	border: none;
 }
 .cm-s-argonaut div.CodeMirror-cursor {
 	border-left: 3px solid #B2B2B2;

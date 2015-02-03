@@ -1,32 +1,56 @@
-/* Taken from the popular Visual Studio Vibrant Ink Schema */
-
-.cm-s-vibrant-ink.CodeMirror { background: black; color: white; }
-.cm-s-vibrant-ink .CodeMirror-selected { background: #35493c !important; }
-
-.cm-s-vibrant-ink .CodeMirror-gutters { background: #002240; border-right: 1px solid #aaa; }
-.cm-s-vibrant-ink .CodeMirror-guttermarker { color: white; }
-.cm-s-vibrant-ink .CodeMirror-guttermarker-subtle { color: #d0d0d0; }
-.cm-s-vibrant-ink .CodeMirror-linenumber { color: #d0d0d0; }
-.cm-s-vibrant-ink .CodeMirror-cursor { border-left: 1px solid white !important; }
-
-.cm-s-vibrant-ink .cm-keyword {  color: #CC7832; }
-.cm-s-vibrant-ink .cm-atom { color: #FC0; }
-.cm-s-vibrant-ink .cm-number { color:  #FFEE98; }
-.cm-s-vibrant-ink .cm-def { color: #8DA6CE; }
-.cm-s-vibrant-ink span.cm-variable-2, .cm-s-vibrant span.cm-tag { color: #FFC66D }
-.cm-s-vibrant-ink span.cm-variable-3, .cm-s-vibrant span.cm-def { color: #FFC66D }
-.cm-s-vibrant-ink .cm-operator { color: #888; }
-.cm-s-vibrant-ink .cm-comment { color: gray; font-weight: bold; }
-.cm-s-vibrant-ink .cm-string { color:  #A5C25C }
-.cm-s-vibrant-ink .cm-string-2 { color: red }
-.cm-s-vibrant-ink .cm-meta { color: #D8FA3C; }
-.cm-s-vibrant-ink .cm-builtin { color: #8DA6CE; }
-.cm-s-vibrant-ink .cm-tag { color: #8DA6CE; }
-.cm-s-vibrant-ink .cm-attribute { color: #8DA6CE; }
-.cm-s-vibrant-ink .cm-header { color: #FF6400; }
-.cm-s-vibrant-ink .cm-hr { color: #AEAEAE; }
-.cm-s-vibrant-ink .cm-link { color: blue; }
-.cm-s-vibrant-ink .cm-error { border-bottom: 1px solid red; }
-
-.cm-s-vibrant-ink .CodeMirror-activeline-background {background: #27282E !important;}
-.cm-s-vibrant-ink .CodeMirror-matchingbracket {outline:1px solid grey; color:white !important;}
+.cm-s-vibrant-ink {
+	font-size: 1em;
+	line-height: 1.5em;
+	font-family: inconsolata, monospace;
+	letter-spacing: 0.3px;
+	word-spacing: 1px;
+	background: #000000;
+	color: #FFFFFF;
+}
+.cm-s-vibrant-ink .CodeMirror-lines {
+	padding: 8px 0;
+}
+.cm-s-vibrant-ink .CodeMirror-gutters {
+	box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.5);
+	background-color: #000000;
+	padding-right: 10px;
+	z-index: 3;
+	border: none;
+}
+.cm-s-vibrant-ink div.CodeMirror-cursor {
+	border-left: 3px solid #FFFFFF;
+}
+.cm-s-vibrant-ink .CodeMirror-activeline-background {
+	background: #333300;
+}
+.cm-s-vibrant-ink .CodeMirror-selected {
+	background: #35493CE0;
+}
+.cm-s-vibrant-ink .cm-comment {
+	color: #9933CC;
+}
+.cm-s-vibrant-ink .cm-keyword {
+	color: #FF6600;
+}
+.cm-s-vibrant-ink .cm-def {
+	font-style: italic;
+}
+.cm-s-vibrant-ink .cm-string {
+	color: #66FF00;
+}
+.cm-s-vibrant-ink .cm-property {
+	color: null;
+}
+.cm-s-vibrant-ink .cm-atom {
+	color: null;
+}
+.cm-s-vibrant-ink .cm-number {
+	color: null;
+}
+.cm-s-vibrant-ink .cm-operator {
+	color: #FF6600;
+}
+.cm-s-vibrant-ink .CodeMirror-linenumber {
+	color: #9933CC;
+}

@@ -16,6 +16,7 @@
 	background-color: #181818;
 	padding-right: 10px;
 	z-index: 3;
+	border: none;
 }
 .cm-s-mreq div.CodeMirror-cursor {
 	border-left: 3px solid #c4c4c4;
