@@ -19,6 +19,8 @@ You can simply fork and clone (or download) the repo into your local directory a
   $ cd codeMirror-themes/themes
 ```
 
+You can also run a server to run `index.html` for a demo showcasing all of the themes.
+
 
 ## Usage
 
