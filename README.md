@@ -15,8 +15,8 @@ If something is not working or you would like a new feature, please use the issu
 You can simply fork and clone (or download) the repo into your local directory and check out the themes folder for the CSS files.
 
 ```
-  $ git clone https://github.com/FarhadG/codeMirror-themes
-  $ cd codeMirror-themes/themes
+  $ git clone https://github.com/FarhadG/code-mirror-themes
+  $ cd code-mirror-themes/themes
 ```
 
 You can also run a server to run `index.html` for a demo showcasing all of the themes.
@@ -45,7 +45,7 @@ Once you have the desired CSS file, you simply configure your CodeMirror editor 
 
 ## Demo
 
-You can either check out the <a href="http://farhadg.github.io/codeMirror-themes/" target="_blank">demo</a> where you can see the various themes in action.
+You can either check out the <a href="http://farhadg.github.io/code-mirror-themes/" target="_blank">demo</a> where you can see the various themes in action.
 
 Here's a theme I extracted from one of my favorite Sublime Themes (itg-flat).
 
