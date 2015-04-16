@@ -1,11 +1,11 @@
 CodeMirror Themes
 =================
 
-Code Mirror is a great online editor, however, it's lacking some good themes. So, here are a crap ton for your coding pleasure.
+CodeMirror is a great online editor, however, it's lacking some good themes. So, here are a crap ton for your coding pleasure.
 
 I used this <a href="https://github.com/FarhadG/codeMirror-aceEditor-theme-generator" target="_blank">theme generator</a> to export themes from editors such as Sublime Text, Ace Editor and TextMate.
 
-Click <a href="http://farhadg.github.io/code-mirror-themes/" target="_blank">here</a> for a simple demo where you can switch between various themes on the fly. A few modifications were made to the base styling to make the default theme look better; e.g. line-heights, fonts, etc. Some version have a default version included (from CodeMirror).
+Click <a href="http://farhadg.github.io/code-mirror-themes/" target="_blank">HERE</a> for a demo where you can switch between various themes on the fly. A few modifications were made to the base styling to make the default theme look better; e.g. line-heights, fonts, etc. Some version have a default version included (from CodeMirror).
 
 If something is not working or you would like a new feature, please use the issues page.
 
