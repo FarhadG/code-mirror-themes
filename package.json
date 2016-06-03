@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/FarhadG/code-mirror-themes/issues"
   },
-  "homepage": "https://github.com/FarhadG/code-mirror-themes#readme"
+  "homepage": "https://github.com/FarhadG/code-mirror-themes#readme",
+  "dependencies": {
+    "codemirror": "^5.15.2"
+  }
 }

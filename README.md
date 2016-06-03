@@ -19,6 +19,12 @@ Click <a href="http://farhadg.github.io/code-mirror-themes/" target="_blank">HER
 
 ## Installation
 
+You can install via `npm` and simply refer to the theme you want within the `themes` directory.
+
+```
+  $ npm i code-mirror-themes --save
+```
+
 You can install via `bower` and simply refer to the theme you want within the `themes` directory.
 
 ```
