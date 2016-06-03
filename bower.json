@@ -1,0 +1,23 @@
+{
+  "name": "code-mirror-themes",
+  "homepage": "https://github.com/FarhadG/code-mirror-themes",
+  "authors": [
+    "Farhad Ghayour <me@farhadg.com>"
+  ],
+  "description": "A large collection of Code Mirror themes for your coding pleasure",
+  "main": "",
+  "keywords": [
+    "code-mirror",
+    "code-mirror theme",
+    "codemirror themes",
+    "code editor themes"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

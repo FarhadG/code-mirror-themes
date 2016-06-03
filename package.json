@@ -1,0 +1,24 @@
+{
+  "name": "code-mirror-themes",
+  "version": "1.0.0",
+  "description": "A large collection of Code Mirror themes for your coding pleasure",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "code-mirror",
+    "code-mirror theme",
+    "codemirror themes",
+    "code editor themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FarhadG/code-mirror-themes.git"
+  },
+  "author": "Farhad Ghayour <me@farhadg.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FarhadG/code-mirror-themes/issues"
+  },
+  "homepage": "https://github.com/FarhadG/code-mirror-themes#readme"
+}

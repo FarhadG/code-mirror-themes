@@ -19,6 +19,12 @@ Click <a href="http://farhadg.github.io/code-mirror-themes/" target="_blank">HER
 
 ## Installation
 
+You can install via `bower` and simply refer to the theme you want within the `themes` directory.
+
+```
+  $ bower i code-mirror-themes --save
+```
+
 You can simply fork and clone (or download) the repo into your local directory and check out the themes folder for the CSS files.
 
 ```
