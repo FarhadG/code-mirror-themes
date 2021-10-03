@@ -10,9 +10,9 @@ If something is not working or you would like a new feature, please use the issu
 
 ## Demo
 
-Here's a theme I extracted from one of my favorite Sublime Themes (itg-flat).
+Here's a theme I extracted from one of my favorite Sublime Themes.
 
-<a href="http://farhadg.github.io/code-mirror-themes/" target="_blank"><img width="500px" style='width: 100%' src='http://i58.tinypic.com/28vrkt1.png' /></a>
+<a href="http://farhadg.github.io/code-mirror-themes/" target="_blank"><img width="500px" style='width: 100%' src='https://i.ibb.co/HFP1wFD/Screen-Shot-2021-10-03-at-3-37-37-PM.png' /></a>
 
 Click <a href="http://farhadg.github.io/code-mirror-themes/" target="_blank">HERE</a> for a demo where you can switch between various themes on the fly. A few modifications were made to the base styling to make the default theme look better; e.g. line-heights, fonts, etc. Some version have a default version included (from CodeMirror).
 
